@@ -33,13 +33,13 @@ void bubble_sort(int *array, size_t size)
 				flag = FALSE;
 				print_array(array, size);
 				/*keep track of the last swaped element*/
-				last_sorted_element = x+1;
+				last_sorted_element = x + 1;
 			}
 		}
 		/*update the range of the sort to not include*/
 		/*the last element swaped*/
 		new_limit = last_sorted_element;
-		if (flag == TRUE && x == 0)
+		if (flag == TRUE || x == 0)
 		{
 			break;
 		}
