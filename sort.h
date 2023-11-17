@@ -1,5 +1,7 @@
 #ifndef __Sorting__
 #define __Sorting__
+#include <stddef.h>
+#include <stdlib.h>
 
 #define FALSE 0
 #define TRUE 1

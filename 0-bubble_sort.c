@@ -11,8 +11,8 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-	flag = FALSE;
-	int x = 0;
+	int flag = FALSE;
+	size_t x = 0;
 	int tmp = 0;
 
 
@@ -26,7 +26,7 @@ void bubble_sort(int *array, size_t size)
 				tmp = array[x];
 				array[x] = array[x + 1];
 				array[x + 1] = tmp;
-				flag == FALSE;
+				flag = FALSE;
 			}
 		}
 	}
