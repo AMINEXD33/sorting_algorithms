@@ -4,6 +4,8 @@
 #define FALSE 0
 #define TRUE 1
 void bubble_sort(int *array, size_t size);
+void print_array(const int *array, size_t size);
+void print_list(const listint_t *list);
 
 /**
  * struct listint_s - Doubly linked list node
