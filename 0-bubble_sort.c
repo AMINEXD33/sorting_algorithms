@@ -32,7 +32,7 @@ void bubble_sort(int *array, size_t size)
 				print_array(array, size);
 			}
 		}
-		if (flag == TRUE)
+		if (flag == TRUE && x == 0)
 		{
 			break;
 		}
